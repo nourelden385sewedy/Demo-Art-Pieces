@@ -118,7 +118,6 @@ namespace Demo.Controllers
                 .GroupBy(c => c.Name)
                 .Select(a => new
                 {
-                    CategoryName = a.Key,
                     
                 }).ToList();
 
